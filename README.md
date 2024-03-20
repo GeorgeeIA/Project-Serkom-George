@@ -1,4 +1,4 @@
-## Project Serkom Junior web Developer
+# Project Serkom Junior web Developer
 
 # Nama : George Isiah Abiyoso
 
@@ -9,7 +9,7 @@ Mengembangkan system pendaftaran beasiswa di sebuah kampus secara online.
 3. pada menu daftar, pengguna dapat mendaftar dengan mengisi form dengan lengkap (dengan syarat apabila ipk pengguna dibawah 3, penggunan tidak dapat mendaftar).
 4. pada menu hasil dapat melihat hasil dari pendaftaran yang telah dilakukan pada form pendaftaran yang berbentuk table dan grafik/chart.
 
-# Struktur
+## Struktur
 
 1. index.html merupakan file halaman utama website yang menampilkan jenis-jenis beasiswa
 2. daftar.php menampilkan form pendaftaran
@@ -17,8 +17,9 @@ Mengembangkan system pendaftaran beasiswa di sebuah kampus secara online.
 4. showdata.php menampilkan hasil dari database dan menampilkan grafik peserta beasiswa
 5. konekgrapik.php, untuk koneksi grafik yang mengambil data dari database
 
-# Installasi
+## Installasi
 
 1. Install Xampp
 2. Remote Project : https://github.com/GeorgeeIA/Project-Serkom-George.git
 3. Extract di halaman xampp/htdocs (Sesuaikan dengan penyimpanan xampp anda)
+4. import file serkom.sql di http://localhost/phpmyadmin/
