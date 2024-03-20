@@ -212,6 +212,15 @@
 
     <script>
 
+      /*
+      Fungsi semester(smt) mengambil satu argumen smt yang merupakan objek.
+      Pada kode ini, smt diharapkan adalah elemen input yang mewakili semester yang dipilih pengguna.
+      Nilai-nilai IPK yang mungkin telah diprediksi sebelumnya disimpan dalam array nilai.
+      Kemudian, fungsi ini mencoba mengambil IPK sesuai dengan semester yang dipilih oleh pengguna dari array nilai.
+      Jika smt bukan nol (artinya pengguna telah memilih semester),
+      nilai IPK yang sesuai ditampilkan di dalam elemen input dengan id #ipk,
+      dan kemudian dipanggil fungsi checkIpk() dengan nilai IPK sebagai argumen.
+      */
       function semester(smt) {
         const nilai = [2.4, 3.5, 3.0, 2.5, 3.4, 1.8, 3.8, 3.1]; // Array nilai IPK 
         const ipk = nilai[smt.value - 1]; // Mengambil IPK dari array berdasarkan nilai semester yang dipilih
@@ -224,6 +233,7 @@
         }
       }
 
+      // Fungsi checkIpk(ipkku) digunakan untuk memeriksa apakah IPK yang diberikan melebihi 3.
       function checkIpk(ipkku) {
         if (ipkku > 3) { // Memeriksa apakah IPK melebihi 3
           document.querySelector("#beasiswa").disabled = false; // Mengaktifkan elemen beasiswa
